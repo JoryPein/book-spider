@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "downloaders"
+version = "0.1.0"
+description = ""
+authors = [""]
+
+[[tool.poetry.source]]
+name = "tsinghua"
+default = true
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiohttp = "^3.8.1"
+parsel = "^1.6.0"
+aiofiles = "^0.8.0"
+pypdf2 = "^1.26.0"
+pdfkit = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
